@@ -2,10 +2,12 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
+  background-color: #FFFFFF;
   background-image: url('../images/rendering1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0 -8em;
+  position: absolute;
+  background-position: 0 -6.8em;
   width: 100%;
     /* Typography Declarations */
     color: #5c5650;
@@ -15,7 +17,7 @@ body {
 
 h1 {
   color: #FFFFFF;
-  font-size: 1.8em;
+  font-size: 1.7em;
   padding: 0;
   margin: 0.4em 0 0.4em 0;
   text-align: center;
@@ -29,7 +31,6 @@ h1 {
 
 p {
   margin: 0;
-  color: #FFFFFF;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -54,11 +55,14 @@ a:visited {
   font-size: .8em;
   letter-spacing: 0.1em;
   font-weight: 400;
+  color: #FFFFFF;
+  display: inline-block;
 }
 
 #copy {
   text-align: center;
   margin-top: 1em;
+  margin-bottom: 1.5em;
   font-size: .9em;
   letter-spacing: 0.12em;
   font-weight: 400;
@@ -66,6 +70,7 @@ a:visited {
 
 #footie {
   padding: 0;
+  margin-top: 2em;
   text-align: center;
   font-size: 0.8em;
   letter-spacing: 0.2em;
@@ -77,12 +82,12 @@ a:visited {
   background-image: url('../images/CB.png');
   background-repeat: no-repeat;
   background-position: center;
-  padding: 3em;
-  width: 25em;
+  padding: 0.5em;
+  width: 24em;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  margin-top: 9em;
+  margin-top: 0;
   z-index: 10;
 }
 
@@ -99,12 +104,12 @@ a:visited {
 .shade {
   padding: 0;
   border: 0;
-  background-color: #101010;
-  opacity: 0.63;
-  filter: alpha(opacity=63);
+  /*background-color: #101010;
+  opacity: 0.65;
+  filter: alpha(opacity=65);*/
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  /*height: 100vh;*/
   margin-left: auto;
   margin-right: auto;
   z-index: 2;
@@ -114,34 +119,39 @@ a:visited {
   padding: 0 0 2em 0;
   border: 0;
   background-color: #000000;
-  opacity: 0.9;
-  filter: alpha(opacity=90);
+  opacity: 0.6;
+  filter: alpha(opacity=60);
   width: 100%;
   height: 3em;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
   z-index: 2;
 }
 
 .footer {
   border: 0;
-  margin: 11em 0 1em 0;
+  margin: 23em 0 0 0;
   width: 100%;
   display: inline-block;
+  background-color: #101010;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  color: #FFFFFF;
+  height: 30vh;
 }
 
 .icon {
   border: 0;
-  margin-top: 1.6em;
   margin-left: auto;
   margin-right: auto;
-  height: 2em;
+  display: inline-block;
   width: 2em;
-  display: block;
+  box-shadow: 0px 0px 10px #222222;
 }
 
 .icon:hover {
-  box-shadow: 0px 0px 10px #9be21c;
+  box-shadow: 0px 0px 14px #9be21c;
 }
 
 /*.footer {
