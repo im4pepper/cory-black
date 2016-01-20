@@ -2,15 +2,15 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  background-color: #FFFFFF;
-  background-image: url('../images/rendering1.jpg');
+  background-color: #3a3a3a;
+  /*background-image: url('../images/rendering1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
-  background-position: 0 -6.8em;
+  background-position: 0 -6.8em;*/
   width: 100%;
     /* Typography Declarations */
-    color: #5c5650;
+    color: #FFFFFF;
     font-size: 1em;
     font-family: 'Oswald', sans-serif;
 }
@@ -104,12 +104,18 @@ a:visited {
 .shade {
   padding: 0;
   border: 0;
+  background-image: url('../images/rendering1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-position: 0 -4em;
   /*background-color: #101010;
   opacity: 0.65;
   filter: alpha(opacity=65);*/
   background-size: cover;
   width: 100%;
   /*height: 100vh;*/
+  height: 40em;
   margin-left: auto;
   margin-right: auto;
   z-index: 2;
@@ -118,9 +124,10 @@ a:visited {
 #header {
   padding: 0 0 2em 0;
   border: 0;
-  background-color: #000000;
+  background-color: #3a3a3a;
+  /*background-color: #000000;
   opacity: 0.6;
-  filter: alpha(opacity=60);
+  filter: alpha(opacity=60);*/
   width: 100%;
   height: 3em;
   margin-left: auto;
@@ -131,14 +138,15 @@ a:visited {
 
 .footer {
   border: 0;
-  margin: 23em 0 0 0;
+  margin: 25em 0 0 0;
   width: 100%;
   display: inline-block;
-  background-color: #101010;
+  /*background-color: #101010;
   opacity: 0.65;
-  filter: alpha(opacity=65);
+  filter: alpha(opacity=65);*/
   color: #FFFFFF;
-  height: 30vh;
+  height: 5em;
+  z-index: 20;
 }
 
 .icon {
@@ -152,28 +160,4 @@ a:visited {
 
 .icon:hover {
   box-shadow: 0px 0px 14px #9be21c;
-}
-
-/*.footer {
-  border: 0;
-  background-color: #000000;
-  opacity: 0.9;
-  filter: alpha(opacity=90);
-  width: 100%;
-  height: 5em;
-  display: inline-block;
-}
-
-.box {
-  background-color: #FFFFFF;
-  font-weight: 400;
-  border: 0.3em;
-  border-radius: 5%;
-  margin: 0 0.7em 1.5em 0.7em;
-  height: 6em;
-  width: 3em;
-  display: inline-block;
-  text-align: center;
-  box-shadow: 0px 0px 8px #766d67;
-  vertical-align: bottom;
 }
